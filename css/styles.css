@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    
+}
+
+header {
+    background-color: #f2f2f2;
+}
+
+button {
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #20a8b4;
+    color: #fff;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #ff5c0f;
+}
+
+img {
+    width: 400px;
+    float: right;
+}
+
+h1 {
+    color: #20a8b4;
+}
+
+span {
+    color: #ff5c0f;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+button:hover {
+    background: #ff5c0f;
+}
