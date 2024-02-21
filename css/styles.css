@@ -1,13 +1,9 @@
 * {
-    font-family: sans-serif;
-}
-
-body {
-    
+    font-family: 'Roboto', serif;
 }
 
 header {
-    background-color: #f2f2f2
+    background-color: #f2f2f2;
 }
 
 button {
@@ -15,22 +11,36 @@ button {
     border-radius: 10px;
     background-color: #20a8b4;
     color: #fff;
+    display: block;
+    width: 100%;
+    text-align: left;
+    
+}
+
+img {
+    display: none;
 }
 
 a {
     color: #000;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
 a:hover {
     color: #ff5c0f;
+    text-decoration: none;
 }
 
-
-img {
-    width: 400px;
-    float: right;
+a:active {
+    text-decoration: none;
 }
-
 
 h1 {
     color: #20a8b4;
@@ -42,26 +52,42 @@ span {
 
 ul {
     list-style-type: none;
+    position: relative;
+    left: 0px;
 }
 
+li {
+    display: flex;
+    flex-flow: column;
+}
 button:hover {
     background: #ff5c0f;
 }
 
-@media screen and (min-width: 480px) {
-    header {
-        background-color: #f2f2f2
-            display flex;
-            justify-content: space-between;
-            align-items: center;
-    }
-    
+
+@media screen and (min-width: 768px) {
     img {
         width: 400px;
         float: right;
+        display: block;
     }
-    
-    li {
-        display: inline;
+
+    main {
+
     }
+
+    header {
+        display: flex;
+    }
+
+    ul {
+        display: flex;
+        
+    }
+
+    button {
+        width: auto;
+    }
+
+
 }
